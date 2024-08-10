@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="dashboard-item dashboard-item--main">
+      <div class="dashboard-item--profile">
+        <img src="./images/image-jeremy.png" alt="jeremy robson">
+        <div>
+          <p class="dashboard-text">Report for</p>
+        <p class="dashboard-name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="dashboard__buttons">
+        <button id="daily" class="btn" data-timeframe="daily">daily</button>
+        <button id="weekly" class="btn active" data-timeframe="weekly">weekly</button>
+        <button id="monthly" class="btn" data-timeframe="monthly">monthly</button>
+      </div>
+    </div>
+    
+    <!-- <div data-topic="work" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-work.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Work</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div>
+    
+    <div data-topic="play" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-play.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Play</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div>
+
+    <div data-topic="study" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-study.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Study</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div>
+
+    <div data-topic="exercise" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-exercise.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Exercise</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div>
+
+    <div data-topic="social" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-social.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Social</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div>
+
+    <div data-topic="selfcare" class="dashboard-item">
+      <div class="dashboard-img">
+        <img src="./images/icon-self-care.svg" alt="">
+      </div>
+      <div class="dashboard-content">
+        <div class="dashboard-content-heading">
+          <p class="dashboard-content-title">Self Care</p>
+          <img src="./images/icon-ellipsis.svg" alt="elipsis">
+        </div>
+        <h2 class="dashboard-content-time">
+          32hrs
+        </h2>
+        <p class="dashboard-content-description">
+          last week - 36hrs
+        </p>
+      </div>
+    </div> -->
+
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
