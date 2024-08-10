@@ -29,7 +29,9 @@ function displayTimeFrameData(data) {
     const div = document.createElement("div");
     div.classList.add("dashboard-item");
     const title =
-      data[i].title.toLowerCase() === "self care" ? "self-care" : data[i].title;
+      data[i].title.toLowerCase() === "self care"
+        ? "self-care"
+        : data[i].title.toLowerCase();
 
     div.dataset.topic = title;
     if (data[i].title.toLowerCase() === "self care") {
