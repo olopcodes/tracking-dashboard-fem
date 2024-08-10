@@ -29,9 +29,7 @@ function displayTimeFrameData(data) {
     const div = document.createElement("div");
     div.classList.add("dashboard-item");
     const title =
-      data[i].title.toLowerCase() === "self care"
-        ? "self-care"
-        : data[i].title.toLowerCase();
+      data[i].title.toLowerCase() === "self care" ? "self-care" : data[i].title;
 
     div.dataset.topic = title;
     if (data[i].title.toLowerCase() === "self care") {
@@ -40,7 +38,7 @@ function displayTimeFrameData(data) {
 
     div.innerHTML = `
         <div class="dashboard-img">
-          <img src="./images/icon-${title}.svg" alt="">
+          <img src="./images/icon-${title.toLowerCase()}.svg" alt="">
         </div>
         <div class="dashboard-content">
           <div class="dashboard-content-heading">
